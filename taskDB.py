@@ -70,3 +70,5 @@ def insert_in_db(task):
 	# close cursor and connection
 	cursor.close()
 	connection.close()
+
+print(read_from_db())

@@ -6,9 +6,9 @@
 </head>
 <body>
 <h1>Welcome to the Todo List Manager web application</h1>
-<p>Here you can see all existing tasks:</p>
-{% if tasks == "" %}
-    <p>Nothing to do now, go sleep :P</p>
+<h3>Here you can see all existing tasks:</h3>
+{% if tasks == () %}
+    <h4>Nothing to do now, go sleep :P</h4>
 {% else %}
     <ul>
     {% for task in tasks %}
